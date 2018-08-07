@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cancel_condition/>
+        <collection>x_71624_servicenow_servicenow_project_task</collection>
+        <condition_class/>
+        <duration>1970-01-06 00:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <name>SNOW - TASK</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule/>
+        <schedule_source>no_schedule</schedule_source>
+        <schedule_source_field/>
+        <set_start_to>work_end</set_start_to>
+        <start_condition table="x_71624_servicenow_servicenow_project_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_71624_servicenow_servicenow_project_task">stateIN3,4,7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,4,7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-07 18:50:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c667e51dbb31300c1d9f2823996191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNOW - TASK</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow Projects" source="x_71624_servicenow">9ad5d651db331300c1d9f282399619c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow Projects">9ad5d651db331300c1d9f282399619c8</sys_scope>
+        <sys_update_name>contract_sla_6c667e51dbb31300c1d9f2823996191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-07 18:50:28</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+    </contract_sla>
+</record_update>

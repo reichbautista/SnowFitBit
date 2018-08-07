@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="ServiceNow Project Task" language="en" table="x_71624_servicenow_servicenow_project_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>ServiceNow Project Task</label>
+            <language>en</language>
+            <name>x_71624_servicenow_servicenow_project_task</name>
+            <plural>ServiceNow Project Tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-07 18:17:47</sys_created_on>
+            <sys_id>4d1f26d9db731300c1d9f282399619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ServiceNow Project Task</sys_name>
+            <sys_package display_value="ServiceNow Projects" source="x_71624_servicenow">9ad5d651db331300c1d9f282399619c8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceNow Projects">9ad5d651db331300c1d9f282399619c8</sys_scope>
+            <sys_update_name>sys_documentation_x_71624_servicenow_servicenow_project_task__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:17:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

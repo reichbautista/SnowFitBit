@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Servicenow Projects Table activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_71624_servicenow_projects_table_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-07 18:30:13</sys_created_on>
+        <sys_id>03e1b69ddb731300c1d9f28239961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_71624_servicenow_projects_table_activity.fields</sys_name>
+        <sys_package display_value="ServiceNow Projects" source="x_71624_servicenow">9ad5d651db331300c1d9f282399619c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow Projects">9ad5d651db331300c1d9f282399619c8</sys_scope>
+        <sys_update_name>sys_properties_03e1b69ddb731300c1d9f28239961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-07 18:30:13</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,comments,*Attachments*,sys_class_name</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=03e1b69ddb731300c1d9f28239961933"/>
+</record_update>
