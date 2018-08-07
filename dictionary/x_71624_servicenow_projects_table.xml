@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="Servicenow Projects Table" max_length="40" name="x_71624_servicenow_projects_table" type="collection"/>
+</database>
