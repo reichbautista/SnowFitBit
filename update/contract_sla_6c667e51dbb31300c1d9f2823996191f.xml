@@ -11,7 +11,6 @@
         <name>SNOW - TASK</name>
         <pause_condition/>
         <relative_duration_works_on>Task record</relative_duration_works_on>
-        <reset_action>cancel</reset_action>
         <reset_condition/>
         <resume_condition/>
         <retroactive>false</retroactive>
